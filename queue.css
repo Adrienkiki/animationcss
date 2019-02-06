@@ -1,4 +1,4 @@
-.contain
+.conteneur
 {
 	position: relative;
 	height: 500px;
@@ -16,41 +16,57 @@ div > div
 	left: 20px;
 	height: 35px;
 	width: 35px;
-	border: 3px solid orange;
+	border: 3px solid deeppink;
 	padding: 15px 15px;
 	border-radius: 15px;
 	animation-name: queue;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
 }
-
-@keyframes contain
+.pers1 {
+    animation-delay: 0.5s;
+}
+.pers2 {
+    animation-delay: 1s
+}
+.pers3 {
+    animation-delay: 1.5s;
+}
+.pers4 {
+    animation-delay: 2s;
+}
+.pers5 {
+    animation-delay: 2.5s;
+}
+.pers6 {
+    animation-delay: 3s;
+}
+@keyframes queue
 {
 	0%
 	{
 		top: 20px;
 		left: 20px;
-		background-color: orange;
+		background-color:deeppink;
 	}
 
 	25%
 	{
 		top: 20px;
 		left: 670px;
-		background-color: lime;
+		background-color:greenyellow;
 	}
 
 	50%
 	{
 		top: 380px;
 		left: 670px;
-		background-color: deeppink;
+		background-color: aqua;
 	}
 
 	75%
 	{
 		top: 380px;
-		left: 20px;
-		background-color: lightblue;
-	}
-}
+        left: 20px;
+        background-color: blue;
+    }

@@ -1,0 +1,14 @@
+h2
+{
+    text-align: center;
+}
+
+#content
+{
+    position: relative;
+    height: 250px;
+    width: 600px;
+    background:deeppink;
+    border-radius: 20px;
+    padding: 10px;
+}
