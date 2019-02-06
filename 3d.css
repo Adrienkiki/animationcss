@@ -1,14 +1,69 @@
-h2
-{
-    text-align: center;
-}
-
-#content
-{
-    position: relative;
-    height: 250px;
-    width: 600px;
-    background:deeppink;
-    border-radius: 20px;
+.section {
+    display: flex;
     padding: 10px;
+    perspective: 800px;
+}
+.section2 {
+    perspective: absolute;
+    perspective: 800px;
+
+}
+div {
+    margin: 10px;
+
+}
+}
+.carre1 {
+    height: 25px;
+    width:  25px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.carre2 {
+    height: 25px;
+    width:  25px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+.carre3 {
+    height: 25px;
+    width:  25px;
+    background-color: teal;
+    border: 1px solid black;
+}
+.carre4 {
+    height: 25px;
+    width:  25px;
+    background-color:salmon;
+    border: 1px solid black;
+}
+.carre5 {
+    height: 25px;
+    width:  25px;
+    background-color: olivedrab;
+    border: 1px solid black;
+}
+.carre6 {
+    height: 25px;
+    width:  25px;
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+.carre7 {
+    height: 25px;
+    width:  25px;
+    background-color: red;
+    border: 1px solid black;
+}
+.carre8 {
+    height: 25px;
+    width:  25px;
+    background-color: brown;
+    border: 1px solid black;
+}
+.carre9 {
+    height: 25px;
+    width:  25px;
+    background-color:slateblue;
+    border: 1px solid black;
 }
