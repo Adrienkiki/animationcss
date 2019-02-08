@@ -1,17 +1,28 @@
-.section {
+.back {
+    height: 800px;
+    width: 1200px;
+    background-color: deeppink;
+}
+.section1 {
     display: flex;
     padding: 10px;
     perspective: 800px;
+    position:relative;
+    perspective: 1000px;
+    animation: direction 10s infinite;
 }
 .section2 {
     perspective: absolute;
-    perspective: 800px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    animation: rotation 10s infinite;
+    left: 150px;
+    top: 50px;
 
 }
 div {
     margin: 10px;
-    
-
+   
 }
 }
 .carre1 {
@@ -19,52 +30,75 @@ div {
     width:  25px;
     background-color: aqua;
     border: 1px solid black;
+    
+   
+    
 }
 .carre2 {
     height: 25px;
-    width:  25px;
-    background-color: blueviolet;
+    width: 25px;
+    background-color: yellow;
     border: 1px solid black;
+    transform: rotateY(150px) translateZ(45deg);
+    transform: rotateY(40deg) translateZ(100px);
+   
 }
 .carre3 {
     height: 25px;
     width:  25px;
     background-color: teal;
     border: 1px solid black;
+    transform: rotateY(150px) translateZ(45deg);
+    transform: rotateY(45deg) translateZ(150px);
+    
+    
 }
 .carre4 {
     height: 25px;
     width:  25px;
     background-color:salmon;
     border: 1px solid black;
+    transform: rotateY(150px) translateZ(45deg);
+    transform: rotateY(50deg) translateZ(200px);
+    
 }
 .carre5 {
     height: 25px;
     width:  25px;
     background-color: olivedrab;
     border: 1px solid black;
+    transform: rotateY(150px) translateZ(45deg);
+    transform: rotateY(55deg) translateZ(250px);
 }
 .carre6 {
     height: 25px;
     width:  25px;
     background-color: goldenrod;
     border: 1px solid black;
+    transform: rotateY(150px) translateZ(45deg);
+    transform: rotateY(60deg) translateZ(300px);
 }
 .carre7 {
     height: 25px;
     width:  25px;
     background-color: red;
     border: 1px solid black;
+    transform: rotateY(150px) translateZ(45deg);
+    transform: rotateY(55deg) translateZ(250px);
 }
 .carre8 {
     height: 25px;
     width:  25px;
     background-color: brown;
     border: 1px solid black;
+    transform: rotateY(150px) translateZ(45deg);
+    transform: rotateY(50deg) translateZ(200px);
 }
 .carre9 {
     height: 25px;
     width:  25px;
     background-color:slateblue;
     border: 1px solid black;
+    transform: rotateY(150px) translateZ(45deg);
+    transform: rotateY(40deg) translateZ(100px);
 }
