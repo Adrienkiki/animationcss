@@ -35,9 +35,8 @@ body {
 	margin: 0px;
 	height: 10px;
 	width: 10px;
-	padding: 10px;
-	border: 3px solid black;
-	border-radius: 5px;
+
+	
 	position: absolute;
 }
 
@@ -50,41 +49,41 @@ body {
 .carre2{
 	border: 1px solid black;
 	background-color: goldenrod;
-	transform: rotateY(60deg) translateZ(100px);
+	transform: rotateY(45deg) translateZ(100px);
 }
 
 .carre3{
 	border: 1px solid black;
 	background-color: aqua;
-	transform: rotateY(120deg) translateZ(100px);
+	transform: rotateY(90deg) translateZ(100px);
 }
 
 .carre4{
 	border: 1px solid black;
 	background-color: slateblue;
-	transform: rotateY(180deg) translateZ(100px);
+	transform: rotateY(135deg) translateZ(100px);
 }
 
 .carre5{
 	border: 1px solid white;
 	background-color: lightgreen;
-	transform: rotateY(240deg) translateZ(100px);
+	transform: rotateY(180deg) translateZ(100px);
 }
 
 .carre6{
 	border: 1px solid black;
 	background-color: sandybrown;
-    transform: rotateY(300deg) translateZ(100px);
+    transform: rotateY(225deg) translateZ(100px);
 }
 .carre7{
 	border: 1px solid black;
 	background-color: deeppink;
-    transform: rotateY(360deg) translateZ(100px);
+    transform: rotateY(270deg) translateZ(100px);
 }
 .carre8{
 	border: 1px solid black;
 	background-color: greenyellow;
-    transform: rotateY(300deg) translateZ(100px);
+    transform: rotateY(315deg) translateZ(100px);
 }
 @keyframes rotation{
 	0%{
